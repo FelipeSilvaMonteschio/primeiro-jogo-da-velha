@@ -6,10 +6,30 @@
     <title>Jogo de Velha</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-    
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="white" />
+    <link rel="apple-touch-icon" href="images/jogo256.png" />
 </head>
 <body>
-    
+    <h1>Jogo da Velha</h1>
+
+    <div  id="Tela">
+        <div class="aereajg" data-index="0"></div>
+        <div class="aereajg" data-index="1"></div>
+        <div class="aereajg" data-index="2"></div>
+        <div class="aereajg" data-index="3"></div>
+        <div class="aereajg" data-index="4"></div>
+        <div class="aereajg" data-index="5"></div>
+        <div class="aereajg" data-index="6"></div>
+        <div class="aereajg" data-index="7"></div>
+        <div class="aereajg" data-index="8"></div>
+    </div>
+
+    <button id="btnr" >Reiniciar Jogo</button>
+    <p>Players X = <span id="playerx">0</span> Vitorias</p>
+    <p>Players 0 = <span id="player0">0</span> Vitorias</p>
+
+
     <script src='js/main.js'></script>
 </body>
 </html>
